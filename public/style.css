@@ -759,6 +759,30 @@ select {
   position: relative;
 }
 
+.left-36 {
+  left: 9rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.-top-72 {
+  top: -18rem;
+}
+
+.-top-20 {
+  top: -5rem;
+}
+
+.-top-40 {
+  top: -10rem;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
 .top-12 {
   top: 3rem;
 }
@@ -795,10 +819,6 @@ select {
   left: 13rem;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .left-48 {
   left: 12rem;
 }
@@ -811,10 +831,6 @@ select {
   left: 10rem;
 }
 
-.left-36 {
-  left: 9rem;
-}
-
 .left-60 {
   left: 15rem;
 }
@@ -823,17 +839,56 @@ select {
   left: 20rem;
 }
 
-.left-96 {
-  left: 24rem;
+.-top-3 {
+  top: -0.75rem;
+}
+
+.-top-36 {
+  top: -9rem;
+}
+
+.-top-32 {
+  top: -8rem;
+}
+
+.-top-4 {
+  top: -1rem;
+}
+
+.left-9 {
+  left: 2.25rem;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-top-5 {
+  top: -1.25rem;
+}
+
+.-top-52 {
+  top: -13rem;
+}
+
+.-top-6 {
+  top: -1.5rem;
+}
+
+.-top-64 {
+  top: -16rem;
+}
+
+.-top-7 {
+  top: -1.75rem;
 }
 
 .m-10 {
   margin: 2.5rem;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+.m-4 {
+  margin: 1rem;
 }
 
 .mx-20 {
@@ -841,20 +896,50 @@ select {
   margin-right: 5rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .ml-4 {
   margin-left: 1rem;
 }
 
+.ml-32 {
+  margin-left: 8rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.ml-0 {
+  margin-left: 0px;
 }
 
 .mt-16 {
@@ -877,10 +962,6 @@ select {
   margin-top: 5rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
 .ml-20 {
   margin-left: 5rem;
 }
@@ -889,16 +970,32 @@ select {
   margin-left: 0.75rem;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.-ml-16 {
+  margin-left: -4rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.ml-52 {
+  margin-left: 13rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
 }
 
 .block {
@@ -933,12 +1030,16 @@ select {
   height: 2.5rem;
 }
 
-.h-80 {
-  height: 20rem;
+.h-5\/6 {
+  height: 83.333333%;
 }
 
-.h-1\/2 {
-  height: 50%;
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .h-1 {
@@ -949,20 +1050,8 @@ select {
   height: 100vh;
 }
 
-.h-4\/6 {
-  height: 66.666667%;
-}
-
 .h-4 {
   height: 1rem;
-}
-
-.h-5\/6 {
-  height: 83.333333%;
-}
-
-.h-5 {
-  height: 1.25rem;
 }
 
 .w-60 {
@@ -977,12 +1066,20 @@ select {
   width: 100%;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-56 {
+  width: 14rem;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-1 {
   width: 0.25rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-20 {
@@ -1005,12 +1102,12 @@ select {
   width: 2.5rem;
 }
 
-.w-14 {
-  width: 3.5rem;
+.w-48 {
+  width: 12rem;
 }
 
-.w-12 {
-  width: 3rem;
+.w-5 {
+  width: 1.25rem;
 }
 
 .max-w-screen-lg {
@@ -1119,9 +1216,24 @@ select {
   border-radius: 0.25rem;
 }
 
+.rounded-l-lg {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-r-lg {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
 .rounded-l-full {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
+}
+
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
 }
 
 .border {
@@ -1147,9 +1259,9 @@ select {
   border-color: rgb(79 70 229 / var(--tw-border-opacity));
 }
 
-.bg-bookmark-green {
+.bg-bookmark-vert {
   --tw-bg-opacity: 1;
-  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+  background-color: rgb(220 242 253 / var(--tw-bg-opacity));
 }
 
 .bg-bookmark-white {
@@ -1169,7 +1281,21 @@ select {
 
 .bg-bookmark-violet {
   --tw-bg-opacity: 1;
-  background-color: rgb(91 33 182 / var(--tw-bg-opacity));
+  background-color: rgb(128 108 242 / var(--tw-bg-opacity));
+}
+
+.bg-bookmark-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+
+.bg-slate-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-bookmark-grey {
@@ -1180,6 +1306,27 @@ select {
 .bg-bookmark-purple {
   --tw-bg-opacity: 1;
   background-color: rgb(82 103 223 / var(--tw-bg-opacity));
+}
+
+.bg-inherit {
+  background-color: inherit;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-4 {
@@ -1222,6 +1369,10 @@ select {
   padding-bottom: 5rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1230,8 +1381,16 @@ select {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-justify {
   text-align: justify;
+}
+
+.align-baseline {
+  vertical-align: baseline;
 }
 
 .font-Poppins {
@@ -1258,6 +1417,14 @@ select {
   line-height: 2.25rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
 .text-bookmark-yellow {
   --tw-text-opacity: 1;
   color: rgb(251 146 60 / var(--tw-text-opacity));
@@ -1268,9 +1435,19 @@ select {
   color: rgb(145 148 162 / var(--tw-text-opacity));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
 .text-bookmark-white {
   --tw-text-opacity: 1;
   color: rgb(247 247 247 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-bookmark-red {
@@ -1281,11 +1458,6 @@ select {
 .text-bookmark-green {
   --tw-text-opacity: 1;
   color: rgb(187 247 208 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1330,8 +1502,18 @@ select {
   outline-style: solid;
 }
 
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.backdrop-filter {
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .transition {
@@ -1344,6 +1526,18 @@ select {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.card {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(30px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.418);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.gauche{
+  margin-left: 22rem;
 }
 
 .hover\:bg-bookmark-cendre:hover {

@@ -15,7 +15,9 @@ module.exports = {
         "bookmark-green":"#bbf7d0",
         "bookmark-yellow":"#fb923c",
         "bookmark-cendre":"#e2e8f0",
-        "bookmark-violet":"#5b21b6",
+        "bookmark-violet":"#806cf2",
+        "bookmark-vert":"#dcf2fd",
+        
         
         
       }
